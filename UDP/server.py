@@ -1,8 +1,8 @@
 import socket
 
 # Configuración del servidor
-SERVER_HOST = '127.0.0.1'
-SERVER_PORT = 12345
+SERVER_HOST = '127.0.0'
+SERVER_PORT = 1
 
 # Crear un socket UDP
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
